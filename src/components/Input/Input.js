@@ -37,6 +37,9 @@ class Input extends Component {
                         <button type="button" className="btn btn-primary" onClick={() => this.props.submit(window.ip)}>My Location</button>
                     </div>
 
+                    <div className="col-auto my-1">
+                        <button type="button" className="btn btn-danger"  onClick={() => this.props.reset(this.state.ip)} >Reset</button>
+                    </div>
                 </div>
             </form>
         </div>
