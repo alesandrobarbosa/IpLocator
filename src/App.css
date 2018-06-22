@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #FFFFFF;
+  height: auto;
+  color: white;
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  text-align:center;
+  padding: 20px 0;
+  z-index: 999;
+}
+
+.wrapper{
+  width: auto;
+}
+
+main {
+  max-width: 960px;
+  margin: auto;
+  
+}
